@@ -176,7 +176,7 @@ Expected response: {"sentiment": "negative"}
 - Training: 5 epochs, batch size 128, Adam optimizer
 
 
-## 🔍 Data Analysis Highlights
+## Data Analysis Highlights
 
 - Dataset Size: 50,000 movie reviews- 25,000 positive, 25,000 negative
 - Average Review Length: 500-1500 characters
@@ -188,6 +188,8 @@ Expected response: {"sentiment": "negative"}
 
 https://github.com/meth-nin/Movie-Review-Sentiment-Analysis-NLP/tree/main
 
-## 📧 Contact
+This project was built as part of an AI Internship assignment by Thyaga.lk
+
+## Contact
 
 Methupa Ninduwara - meth2468nin@gmail.com
