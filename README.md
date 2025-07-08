@@ -66,27 +66,30 @@ The API will be available at `http://127.0.0.1:5000/`
 
 3. Test the API:
 
+```bash
 curl -X POST http://127.0.0.1:5000/predict \
      -H "Content-Type: application/json" \
      -d '{"review": "type your review here"}'
+```
 
 OR
 
+```bash
 curl -X POST http://localhost:5000/predict \
   -H "Content-Type: application/json" \
   -d '{"review": "type your review here"}'
-
+```
 
 
 ## Model Performance Results
 
-Final Model Comparison Table:
-                       Model  Accuracy  Precision  Recall  F1 Score
-0        Logistic Regression    0.8852     0.8768  0.8984    0.8875
-3  Tuned Logistic Regression    0.8849     0.8767  0.8978    0.8871
-2                        SVM    0.8790     0.8731  0.8891    0.8810
-4                       LSTM    0.8756     0.8562  0.9051    0.8800
-1                Naive Bayes    0.8490     0.8473  0.8543    0.8508
+| Model | Accuracy | Precision | Recall | F1 Score |
+|-------|----------|-----------|--------|----------|
+| Logistic Regression | 0.8852 | 0.8768 | 0.8984 | 0.8875 |
+| Tuned Logistic Regression | 0.8849 | 0.8767 | 0.8978 | 0.8871 |
+| SVM | 0.8790 | 0.8731 | 0.8891 | 0.8810 |
+| LSTM | 0.8756 | 0.8562 | 0.9051 | 0.8800 |
+| Naive Bayes | 0.8490 | 0.8473 | 0.8543 | 0.8508 |
 
 Best Model: Logistic Regression achieved the highest F1-Score of 0.8875.
 
@@ -183,4 +186,8 @@ Expected response: {"sentiment": "negative"}
 
 ### Project Link:
 
- [https://github.com/yourusername/movie-review-sentiment-analysis](https://github.com/yourusername/movie-review-sentiment-analysis)
+https://github.com/meth-nin/Movie-Review-Sentiment-Analysis-NLP/tree/main
+
+## 📧 Contact
+
+Methupa Ninduwara - meth2468nin@gmail.com
